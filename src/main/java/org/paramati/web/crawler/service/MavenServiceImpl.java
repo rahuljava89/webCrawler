@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 
 import org.apache.commons.io.IOUtils;
-import org.paramati.web.crawler.contants.CommonConstants;
+import org.paramati.web.crawler.constants.CommonConstants;
 import org.paramati.web.crawler.manager.MavenWebCrawlerMgrImpl;
 import org.paramati.web.crawler.service.Parser.IParser;
 import org.paramati.web.crawler.service.Parser.MavenParser;

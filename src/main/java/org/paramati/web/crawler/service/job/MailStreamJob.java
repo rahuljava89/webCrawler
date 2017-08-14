@@ -5,7 +5,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.BlockingQueue;
 
-import org.paramati.web.crawler.contants.CommonConstants;
+import org.paramati.web.crawler.constants.CommonConstants;
 import org.paramati.web.crawler.service.dtos.Message;
 import org.paramati.web.crawler.utils.CrawlerJerseyClient;
 import org.slf4j.Logger;
