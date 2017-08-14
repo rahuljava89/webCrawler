@@ -31,6 +31,8 @@ public class MailStreamJob implements Runnable {
 			saveFile(message);
 		} catch (IOException exc) {
 			LOGGER.error("saving file to queue got exception :: " + exc.getMessage() + exc);
+			message.setByteArr("Failure during retreivel of File from mail Server".getBytes());
+			queue.add(message);
 		}
 
 	}
