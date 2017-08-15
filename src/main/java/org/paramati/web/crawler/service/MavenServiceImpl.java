@@ -80,6 +80,8 @@ public class MavenServiceImpl implements IMavenService {
 			LOGGER.info("Iteration: " + itr + "mailID ::" + mailID);
 			IOUtils.write(msg.getByteArr(), fos);
 			fos.close();
+			
+			itr++;
 		}
 
 		LOGGER.debug("saveFile() method completed.");
